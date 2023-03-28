@@ -7,7 +7,7 @@ namespace Questao6
     {
         static void Main(string[] args)
         {
-            String caminhoArquivo = "C:\\Users\\Francisco\\Downloads\\Cidades.csv";
+            String caminhoArquivo = "../../../Cidades.csv";
             String arquivoCSV = File.ReadAllText(caminhoArquivo);
             String[] arquivoDividido = arquivoCSV.Split(';');
             var dicionario = new Dictionary<string, string>();
